@@ -1,7 +1,8 @@
 import React from 'react'
-import Banner from '@/components/Banner/Banner'
+import Banner from '@/components/Home/Banner/Banner'
 import Navbar from '@/components/Shared/Navber'
-import Skills from '@/components/Skills/Skills'
+import Skills from '@/components/Home/Skills/Skills'
+import Services from '@/components/Home/Services/Services'
 
 
 const page = () => {
@@ -11,6 +12,7 @@ const page = () => {
       <div className="bg-[#1E1E1E] py-4 ">
         <Banner/>
         <Skills/>
+        <Services/>
       </div>
     </div>
   )
