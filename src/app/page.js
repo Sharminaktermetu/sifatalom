@@ -3,6 +3,7 @@ import Banner from '@/components/Home/Banner/Banner'
 import Navbar from '@/components/Shared/Navber'
 import Skills from '@/components/Home/Skills/Skills'
 import Services from '@/components/Home/Services/Services'
+import RecentWork from '@/components/Home/RecentWork/RecentWork'
 
 
 const page = () => {
@@ -13,6 +14,7 @@ const page = () => {
         <Banner/>
         <Skills/>
         <Services/>
+        <RecentWork/>
       </div>
     </div>
   )

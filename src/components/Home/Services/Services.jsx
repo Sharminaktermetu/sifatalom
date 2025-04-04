@@ -1,6 +1,5 @@
 import SectionHeader from '@/components/Reuseable/SectionHeader'
 import service from "../../../assests/topasset/service.png";
-import Image from 'next/image';
 import ReusableCard from '@/components/Reuseable/ServiceCard';
 import { serviceData } from '@/data/services';
 const Services = () => {
