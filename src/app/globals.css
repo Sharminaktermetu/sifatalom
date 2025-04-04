@@ -1,26 +1,31 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Play:wght@400;700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
 @import "tailwindcss";
+@plugin "daisyui";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-primary: #8B3CFF;   /* Primary color */
+  --color-secondary: #FFB400; /* Secondary color */
+  --color-accent: #37cdbe;    /* Accent color */
+  --color-neutral: #3d4451;   /* Neutral color */
+  --color-base-100: #ffffff; /* Base color (white) */
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
-}
+    font-family: "Play", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+  @layer base {
+    /* Apply custom colors using the CSS variables */
+    .text-primary {
+      @apply text-[var(--color-primary)];  /* Text color using the primary variable */
+    }
+    h2{
+      @apply text-4xl font-bold;
+    }
+  }
