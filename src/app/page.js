@@ -8,22 +8,26 @@ import ProfessinalWork from '@/components/Home/Professional/ProfessinalWork'
 import Pricing from '@/components/Home/Pricing/Pricing'
 import Faq from '@/components/Home/Faqs/Faq'
 import Review  from '@/components/Home/Reviews/Review'
+import Footer from '@/components/Shared/Footer'
+import DevelopmentSystem from '@/components/Home/RecentWork/DevepmentSystem/DevelopmentSystem'
 
 
 const page = () => {
   return (
     <div>
-      <Navbar />
-      <div className="bg-[#1E1E1E] py-4 ">
+    
+
         <Banner/>
         <Skills/>
         <Services/>
         <RecentWork/>
+        <DevelopmentSystem/>
         <ProfessinalWork/>
         <Pricing/>
         <Faq/>
       <Review/>
-      </div>
+  
+   
     </div>
   )
 }

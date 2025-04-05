@@ -73,7 +73,7 @@ const RecentWork = () => {
           ))}
         </div>
       </div>
-      <DevelopmentSystem/>
+     
     </div>
   );
 };

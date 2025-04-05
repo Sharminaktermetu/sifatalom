@@ -12,8 +12,8 @@ const Navbar = () => {
   // Links data array
   const navLinks = [
     { name: "Home", href: "/" },
-    { name: "About", href: "/about-me" },
-    { name: "Work", href: "/blogs" },
+    { name: "About", href: "/about" },
+    { name: "Work", href: "/my-work" },
     { name: "Service", href: "/#" },
     { name: "Contact", href: "/#re" },
 
