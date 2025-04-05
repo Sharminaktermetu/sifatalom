@@ -5,7 +5,7 @@ const ExperienceItem = ({ years, company, role, image }) => {
     <div className="text-primary-content m-10 border-l-8 border-[#4A2083]">
       <div className="flex justify-center items-center gap-4 p-3">
         <div className="card-body">
-          <h3 className="text-primary">{years}</h3>
+          <h3 className="text-[#8B3CFF]">{years}</h3>
           <p className="text-lg font-bold">{company}</p>
           <p>{role}</p>
         </div>

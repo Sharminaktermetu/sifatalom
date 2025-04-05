@@ -25,14 +25,14 @@ const Banner = () => {
             />
           </div>
            <h2>
-              Hello! I am <span className="text-primary">Md. Sifat Alam</span>
+              Hello! I am <span className="text-[#8B3CFF]">Md. Sifat Alam</span>
             </h2>
           
            </div>
             <h2 className="py-6">I’m a Full Stack Web Developer</h2>
             <p>
               Currently I’m working as a project manager at{" "}
-              <span className="text-primary">DEMO SOFTWARE LTD.</span>
+              <span className="text-[#8B3CFF]">DEMO SOFTWARE LTD.</span>
             </p>
             <p className="w-2xl text-justify mt-5">
               As a Web Developer, I’m passionate about creating websites that
