@@ -7,7 +7,7 @@ const Review = () => {
       <SectionHeader imageSrc={review}/>
 
  <div>
-      <div className='w-7xl mx-auto mt-32  rounded-xl'>
+      <div className='mt-32  rounded-xl'>
        
         <div>
         <div className='grid grid-cols-3 justify-items-center'>

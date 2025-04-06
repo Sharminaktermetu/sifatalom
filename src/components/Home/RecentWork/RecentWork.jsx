@@ -66,7 +66,7 @@ const RecentWork = () => {
   return (
     <div className="mt-40">
       <SectionHeader imageSrc={recent} />
-      <div className="w-7xl mx-auto mt-32  flex justify-center items-center rounded-xl">
+      <div className="mt-32  flex justify-center items-center rounded-xl">
         <div className="grid grid-cols-3 justify-items-center gap-5">
           {imageCardsData.map((item, index) => (
             <ReusableImageCard key={index} {...item} />

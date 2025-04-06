@@ -9,7 +9,7 @@ const Skills = () => {
     <>
       <div>
         <SectionHeader imageSrc={skill} title={"Skills"} />
-        <div className="hero">
+        <div className=" max-w-7xl mx-auto mt-20 mb-20">
           <div className={`${styles.bannerBackground}`}>
             <div className="grid grid-cols-4 mt-20 justify-items-center gap-12 hero-content">
               {skills.slice(0, 12).map((skill, index) => (
@@ -27,7 +27,7 @@ const Skills = () => {
       </div>
       <div>
         
-        <div className="w-7xl mx-auto mt-32 border border-[#6A2FC1] bg-gradient-to-b from-[#361068] to-[#1A0B2E] flex justify-center items-center rounded-xl">
+        <div className="m-10 mt-32 border border-[#6A2FC1] bg-gradient-to-b from-[#361068] to-[#1A0B2E] flex justify-center items-center rounded-xl">
           <div className="grid grid-cols-3 justify-items-center">
             <div className="text-primary-content m-10 border-r-8  border-[#4A2083]">
               <div className="card-body">

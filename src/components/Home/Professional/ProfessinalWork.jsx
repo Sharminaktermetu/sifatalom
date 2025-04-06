@@ -10,7 +10,7 @@ const ProfessinalWork = () => {
     <div className="mt-60">
       <SectionHeader imageSrc={profe} />
 
-      <div className="w-7xl mx-auto mt-32 border border-[#6A2FC1] bg-gradient-to-b from-[#361068] to-[#1A0B2E] rounded-xl">
+      <div className="mt-32 border border-[#6A2FC1] bg-gradient-to-b from-[#361068] to-[#1A0B2E] rounded-xl">
 
         <div className="py-16 border-b-2 border-[#4A2083]   text-white flex items-center gap-4 justify-center">
           

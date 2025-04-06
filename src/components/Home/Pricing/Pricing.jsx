@@ -10,7 +10,7 @@ const Pricing = () => {
     <div className="mt-60">
       <SectionHeader imageSrc={pricing} />
 
-      <div className="w-7xl mx-auto mt-32 rounded-xl">
+      <div className="mt-32 rounded-xl">
         <div className='grid grid-cols-3 justify-items-center'>
         
       {pricingData.map((plan, index) => (

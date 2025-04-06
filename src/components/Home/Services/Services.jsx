@@ -6,7 +6,7 @@ const Services = () => {
   return (
     <div className='mt-96'>
       <SectionHeader imageSrc={service}/>
-      <div className="w-7xl mx-auto mt-32  flex justify-center items-center rounded-xl">
+      <div className="mt-32  flex justify-center items-center rounded-xl">
           <div className="grid grid-cols-3 justify-items-center">
           {serviceData.map((item, index) => (
         <ReusableCard

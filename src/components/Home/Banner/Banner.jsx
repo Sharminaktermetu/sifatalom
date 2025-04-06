@@ -10,7 +10,7 @@ const Banner = () => {
         <Image
           src={profile}
           alt="profile"
-          width={400}
+          width={380}
         />
 
       <div
@@ -21,7 +21,7 @@ const Banner = () => {
             <Image
               src={arrow}
               alt="arrow"
-              className="absolute -top-20 -left-56 w-[260px] h-80"
+              className="absolute -top-44 -left-56 w-[260px] h-80"
             />
           </div>
            <h2>

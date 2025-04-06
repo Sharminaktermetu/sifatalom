@@ -14,7 +14,7 @@ import DevelopmentSystem from '@/components/Home/RecentWork/DevepmentSystem/Deve
 
 const page = () => {
   return (
-    <div>
+    <div className='max-w-7xl mx-auto'>
     
 
         <Banner/>
@@ -25,7 +25,15 @@ const page = () => {
         <ProfessinalWork/>
         <Pricing/>
         <Faq/>
-      <Review/>
+        <Review/>
+        {/* <Skills/>
+        <Services/>
+        <RecentWork/>
+        <DevelopmentSystem/>
+        <ProfessinalWork/>
+        <Pricing/>
+        <Faq/>
+      <Review/> */}
   
    
     </div>
