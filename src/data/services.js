@@ -62,4 +62,6 @@ export const serviceData = [
         description:
         'I provide creative graphic design services, crafting visually compelling designs that communicate your brand’s message effectively. From logos to marketing materials, I focus on delivering high-quality, aesthetically pleasing designs that enhance brand identity and engage your target audience.',
     },
+  
+   
 ];

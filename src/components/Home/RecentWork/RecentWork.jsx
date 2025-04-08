@@ -65,7 +65,7 @@ const imageCardsData = [
 const RecentWork = () => {
   return (
     <div className="mt-40">
-      <SectionHeader imageSrc={recent} />
+      <SectionHeader topTitle={'Portfolio'} title={'MY RECENT WORK'}/>
       <div className="mt-32  flex justify-center items-center rounded-xl">
         <div className="grid grid-cols-3 justify-items-center gap-5">
           {imageCardsData.map((item, index) => (

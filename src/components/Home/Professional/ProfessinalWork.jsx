@@ -8,7 +8,7 @@ import ExperienceItem from "@/components/Reuseable/ExprienceItem";
 const ProfessinalWork = () => {
   return (
     <div className="mt-60">
-      <SectionHeader imageSrc={profe} />
+      <SectionHeader title={'Professional Journey'} topTitle={'WORK'}/>
 
       <div className="mt-32 border border-[#6A2FC1] bg-gradient-to-b from-[#361068] to-[#1A0B2E] rounded-xl">
 
@@ -24,7 +24,7 @@ const ProfessinalWork = () => {
          
         </div>
 
-        <div className="grid grid-cols-3 justify-items-center">
+        <div className=" flex items-center justify-center   gap-10">
          
         {experienceList.map((item, index) => (
         <ExperienceItem
@@ -33,6 +33,7 @@ const ProfessinalWork = () => {
           company={item.company}
           role={item.role}
           image={item.image}
+          index={index}
         />
       ))}
           

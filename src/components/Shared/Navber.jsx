@@ -38,7 +38,11 @@ const Navbar = () => {
             <Link
               key={link.href}
               href={link.href}
-              className="text-white font-bold"
+              className={`block ${
+                isActive(link.href)
+                  ? "text-[#8B3CFF] font-bold"
+                  : "text-white"
+              }`}
             >
               {link.name}
             </Link>
@@ -84,9 +88,9 @@ const Navbar = () => {
                   onClick={() => setMenuOpen(false)} // Close menu on click
                   className={`block ${
                     isActive(link.href)
-                      ? "text-orange-300 font-bold"
+                      ? "text-[#8B3CFF] font-bold"
                       : "text-white"
-                  } hover:text-orange-300`}
+                  } hover:text-[#8B3CFF]`}
                 >
                   {link.name}
                 </Link>

@@ -26,15 +26,7 @@ const page = () => {
         <Pricing/>
         <Faq/>
         <Review/>
-        {/* <Skills/>
-        <Services/>
-        <RecentWork/>
-        <DevelopmentSystem/>
-        <ProfessinalWork/>
-        <Pricing/>
-        <Faq/>
-      <Review/> */}
-  
+
    
     </div>
   )
