@@ -9,7 +9,7 @@ const Skills = () => {
     <>
       <div>
         <SectionHeader  title={"Skills"} />
-        <div className=" max-w-7xl mx-auto mt-20 mb-20">
+        <div className="max-w-7xl mx-auto mt-20 mb-20">
           <div className={`${styles.bannerBackground}`}>
             <div className="grid grid-cols-4 mt-20 justify-items-center gap-12 hero-content">
               {skills.slice(0, 12).map((skill, index) => (

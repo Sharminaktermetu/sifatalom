@@ -1,0 +1,9 @@
+.bannerBackground {
+ background-image: url('../../../assests/bg.png');
+
+ background-position: 0% 100%;
+ background-repeat: no-repeat;
+
+ background-size: 900px 900px;
+ border-radius: 100%;
+}

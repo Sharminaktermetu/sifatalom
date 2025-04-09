@@ -1,4 +1,6 @@
-import Image, { StaticImageData } from 'next/image';
+import Image from "next/image";
+
+
 
 
 const ReusableImageCard = ({
@@ -24,11 +26,14 @@ const ReusableImageCard = ({
       >
         <div className="translate-y-10 group-hover:translate-y-0 transition-all duration-300 space-y-2">
           <h1 className="md:text-2xl font-semibold">{title}</h1>
-          {overlayImages.map((img, index) => (
-            <Image key={index} src={img} alt={`Overlay ${index}`} />
+         <div className='flex items-center justify-center gap-9'>
+         {overlayImages.map((img, index) => (
+            <Image key={index} src={img} alt={`Overlay ${index}`} className='w-14 '/>
           ))}
+         </div>
         </div>
       </article>
+         
     </div>
   );
 };

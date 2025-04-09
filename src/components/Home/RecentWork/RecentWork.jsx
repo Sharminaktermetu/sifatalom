@@ -1,64 +1,66 @@
 import SectionHeader from "@/components/Reuseable/SectionHeader";
-import recent from "../../../assests/topasset/recent.png";
-import Image from "next/image";
+
 import recentdata from "../../../assests/recent/website.png";
-import recentdata1 from "../../../assests/recent/2.png";
+import recentdata1 from "../../../assests/websiteIcons/workIcon/Link.png";
+import recentdata2 from "../../../assests/websiteIcons/workIcon/Eye.png";
+
 import ReusableImageCard from "@/components/Reuseable/RecentWork";
-import DevelopmentSystem from "./DevepmentSystem/DevelopmentSystem";
+import { Button } from "@/components/ui/button";
+
 
 const imageCardsData = [
   {
     imageSrc: recentdata,
     title: "Who We Are",
-    overlayImages: [recentdata1], // Add more images as needed
+    overlayImages: [recentdata1,recentdata2], // Add more images as needed
     overlayBackground: "#361068",
   },
   {
     imageSrc: recentdata,
     title: "Our Vision",
-    overlayImages: [recentdata1],
+    overlayImages: [recentdata1,recentdata2],
     overlayBackground: "#2a0b4d",
   },
   {
     imageSrc: recentdata,
     title: "Our Vision",
-    overlayImages: [recentdata1],
+    overlayImages: [recentdata1,recentdata2],
     overlayBackground: "#2a0b4d",
   },
   {
     imageSrc: recentdata,
     title: "Our Vision",
-    overlayImages: [recentdata1],
+    overlayImages: [recentdata1,recentdata2],
     overlayBackground: "#2a0b4d",
   },
   {
     imageSrc: recentdata,
     title: "Our Vision",
-    overlayImages: [recentdata1],
+    overlayImages: [recentdata1, ],
     overlayBackground: "#2a0b4d",
   },
   {
     imageSrc: recentdata,
     title: "Our Vision",
-    overlayImages: [recentdata1],
+    overlayImages: [recentdata1,recentdata2],
     overlayBackground: "#2a0b4d",
   },
   {
     imageSrc: recentdata,
     title: "Our Vision",
-    overlayImages: [recentdata1],
+    overlayImages: [recentdata1,recentdata2],
     overlayBackground: "#2a0b4d",
   },
   {
     imageSrc: recentdata,
     title: "Our Vision",
-    overlayImages: [recentdata1],
+    overlayImages: [recentdata1,recentdata2],
     overlayBackground: "#2a0b4d",
   },
   {
     imageSrc: recentdata,
     title: "Our Vision",
-    overlayImages: [recentdata1],
+    overlayImages: [recentdata1,recentdata2],
     overlayBackground: "#2a0b4d",
   },
 ];
@@ -72,8 +74,9 @@ const RecentWork = () => {
             <ReusableImageCard key={index} {...item} />
           ))}
         </div>
+        
       </div>
-     
+      <Button variant={'custom'} className='py-8 px-12'>LOAD MORE +</Button>
     </div>
   );
 };

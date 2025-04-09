@@ -1,3 +1,4 @@
+// import bag from "../assests/websiteIcons/workExperience/portfolio.png";
 import bag from "../assests/services/bag.png";
 export const experienceData = [
     { number: "07", label: "Years of experience" },

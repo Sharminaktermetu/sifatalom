@@ -4,7 +4,7 @@ const ExperienceItem = ({ years, company, role, image, index }) => {
   return (
     <div
       className={`text-primary-content my-10 ${
-        index === 1 ? "border-x-8 border-[#8B3CFF] px-10 " : ""
+        index === 1 ? "border-x-8 border-[#6A2FC1] px-10 " : ""
       }`}
     >
       <div className="flex justify-center items-center gap-4 p-3">
